@@ -1,66 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--https://code.jquery.com/-->
-        <script
-			  src="https://code.jquery.com/jquery-3.2.1.min.js"
-			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-			  crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <script>
-            $('body').append('<svg>')
-            
-            var svg = $('svg');
-            
-            svg.attr('width', window.innerWidth)
-                .attr('height', 500);
-            
-            svg.append('<circle>');
-            
-            $('circle').attr('r', 20)
-                .attr('cx', 200)
-                .attr('cy', 75);
-                
-            svg.append('<rect>');
-            
-            $('rect').attr('x', 300)
-                .attr('y', 50)
-                .attr('width', 50)
-                .attr('height', 50);
-                
-            svg.append('<polygon>');
-            
-            $('polygon').attr('points', '60,30 100,50 100,90 60,110 20,90 20,50');
-        
-            // required in jQuery to update svg
-            svg.html(function(){return this.innerHTML});
-        </script>
+	<head>
+		<title>Joe Steele Design Methods #1</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
 
-    I wake to sleep, and take my waking slow.   
-I feel my fate in what I cannot fear.   
-I learn by going where I have to go. 
+		<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Indie+Flower|Libre+Barcode+39+Extended|Open+Sans+Condensed:300|Playfair+Display|Yanone+Kaffeesatz" rel="stylesheet">
+	</head>
+	<body>
 
-We think by feeling. What is there to know?   
-I hear my being dance from ear to ear.   
-I wake to sleep, and take my waking slow. 
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Joe Steele, Design Methods Assignment #1</h1>
+				<p>Remix</p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
 
-Of those so close beside me, which are you?   
-God bless the Ground!   I shall walk softly there,   
-And learn by going where I have to go. 
 
-Light takes the Tree; but who can tell us how?   
-The lowly worm climbs up a winding stair;   
-I wake to sleep, and take my waking slow. 
-
-Great Nature has another thing to do   
-To you and me; so take the lively air,   
-And, lovely, learn by going where to go. 
-
-This shaking keeps me steady. I should know.   
-What falls away is always. And is near.   
-I wake to sleep, and take my waking slow.   
-I learn by going where I have to go.
-
-    </body>
+		<nav>
+    		<ul>
+        		<li><a href="./pages/poem1.html">Poem1</a></li>
+        		<li><a href="./pages/poem2.html">Poem2</a></li>
+        		<li><a href="./pages/poem3.html">Poem3</a></li>
+        		<li><a href="./pages/poem4.html">Poem4</a></li>
+        		<li><a href="./pages/poem5.html">Poem5</a></li>
+        		<li><a href="./pages/poem6.html">Poem6</a></li>
+        		<li><a href="./pages/poem7.html">Poem7</a></li>
+        		<li><a href="./pages/poem8.html">Poem8</a></li>
+        		<li><a href="./pages/poem9.html">Poem9</a></li>
+        		<li><a href="./pages/poem10.html">Poem10</a></li>
+        		<li><a href="./pages/poem.html">Poem11</a></li>
+        		<li><a href="./pages/poem.html">Poem12</a></li>
+        		<li><a href="./pages/poem.html">Poem13</a></li>
+        		<li><a href="./pages/poem.html">Poem14</a></li>
+        		<li><a href="./pages/poem.html">Poem15</a></li>
+        		<li><a href="./pages/poem.html">Poem16</a></li>
+        		<li><a href="./pages/poem.html">Poem17</a></li>
+        		<li><a href="./pages/poem.html">Poem18</a></li>
+        		<li><a href="./pages/poem.html">Poem19</a></li>
+        		<li><a href="./pages/poem.html">Poem20</a></li>
+    		</ul>
+		</nav>
+	</body>
 </html>
